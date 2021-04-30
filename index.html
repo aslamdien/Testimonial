@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Testimonials</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles/tesimonials.css" />
+  </head>
+  <body>
+    <h1 class="heading">My Testimonials</h1>
+    <!-- Set up your HTML -->
+    <div class="owl-carousel">
+      <div class="testimonial person1">
+        <img src="images/IMG_20210430_094622.jpg" />
+        <div class="container">
+          <h2 class="people">Uthmaan Breda</h2>
+          <h3 class="job">- CEO -</h3>
+          <q class="quote"
+            >He is a man of few words, his actions show that he is a man of
+            integrity and honour.</q
+          >
+        </div>
+      </div>
+      <div class="testimonial person2">
+        <img src="images/IMG_20210430_094519.jpg" />
+        <div class="container">
+          <h2 class="people">Zipho Sithandathu</h2>
+          <h3 class="job">- AOS Developer -</h3>
+          <q class="quote"
+            >He is good at what his doing and he does`nt hesitate to help when
+            you ask for help.</q
+          >
+        </div>
+      </div>
+      <div class="testimonial person3">
+        <img src="images/IMG_20210430_094611.jpg" />
+        <div class="container">
+          <h2 class="people">Abdul-Makil Mohammad</h2>
+          <h3 class="job">- Full Stack Developer -</h3>
+          <q class="quote"
+            >Ayyoob lends a hand without hesitation, you don`t have to ask him
+            twice to help out.</q
+          >
+        </div>
+      </div>
+    </div>
+    <!-- Script tags under here -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+      integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+          items: 1,
+          margin: 50,
+          loop: true,
+          stagePadding: 100,
+          dots: false,
+          autoplay: true,
+        });
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../images/disco-dba865f1.png);
+  color: white;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  justify-content: space-around;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.testimonial {
+  background: rgba(255, 255, 255, 0.13);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  border-radius: 20px;
+}
+
+.owl-carousel .owl-item img {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  flex-basis: 50%;
+}
+
+.people {
+  color: blanchedalmond;
+  font-size: 35px;
+  text-transform: uppercase;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.job {
+  color: rgb(9, 91, 184);
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+.quote {
+  color: rgb(26, 24, 24);
+  font-size: 17px;
+}
